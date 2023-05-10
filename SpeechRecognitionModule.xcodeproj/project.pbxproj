@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B9AF3B729D25621007DF2AB /* SpeechRecognitionModuleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9AF3B629D25621007DF2AB /* SpeechRecognitionModuleApp.swift */; };
+		6B9AF3B929D25621007DF2AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9AF3B829D25621007DF2AB /* ContentView.swift */; };
+		6B9AF3BB29D25624007DF2AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B9AF3BA29D25624007DF2AB /* Assets.xcassets */; };
+		6B9AF3BE29D25624007DF2AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B9AF3BD29D25624007DF2AB /* Preview Assets.xcassets */; };
+		6B9AF3C529D25634007DF2AB /* SpeechRecognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9AF3C429D25634007DF2AB /* SpeechRecognition.swift */; };
+		6B9AF3C729D25660007DF2AB /* JSONFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9AF3C629D25660007DF2AB /* JSONFileManager.swift */; };
+		6B9AF3CA29D25772007DF2AB /* a-estrelinha-do-mar-historinha-infantil-historia-curta.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6B9AF3C929D25772007DF2AB /* a-estrelinha-do-mar-historinha-infantil-historia-curta.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B9AF3B329D25621007DF2AB /* SpeechRecognitionModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechRecognitionModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B9AF3B629D25621007DF2AB /* SpeechRecognitionModuleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognitionModuleApp.swift; sourceTree = "<group>"; };
+		6B9AF3B829D25621007DF2AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6B9AF3BA29D25624007DF2AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B9AF3BD29D25624007DF2AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6B9AF3C429D25634007DF2AB /* SpeechRecognition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechRecognition.swift; sourceTree = "<group>"; };
+		6B9AF3C629D25660007DF2AB /* JSONFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONFileManager.swift; sourceTree = "<group>"; };
+		6B9AF3C829D2572D007DF2AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6B9AF3C929D25772007DF2AB /* a-estrelinha-do-mar-historinha-infantil-historia-curta.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "a-estrelinha-do-mar-historinha-infantil-historia-curta.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B9AF3B029D25621007DF2AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B9AF3AA29D25620007DF2AB = {
+			isa = PBXGroup;
+			children = (
+				6B9AF3B529D25621007DF2AB /* SpeechRecognitionModule */,
+				6B9AF3B429D25621007DF2AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B9AF3B429D25621007DF2AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B9AF3B329D25621007DF2AB /* SpeechRecognitionModule.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B9AF3B529D25621007DF2AB /* SpeechRecognitionModule */ = {
+			isa = PBXGroup;
+			children = (
+				6B9AF3C829D2572D007DF2AB /* Info.plist */,
+				6B9AF3C929D25772007DF2AB /* a-estrelinha-do-mar-historinha-infantil-historia-curta.mp3 */,
+				6B9AF3C629D25660007DF2AB /* JSONFileManager.swift */,
+				6B9AF3C429D25634007DF2AB /* SpeechRecognition.swift */,
+				6B9AF3B629D25621007DF2AB /* SpeechRecognitionModuleApp.swift */,
+				6B9AF3B829D25621007DF2AB /* ContentView.swift */,
+				6B9AF3BA29D25624007DF2AB /* Assets.xcassets */,
+				6B9AF3BC29D25624007DF2AB /* Preview Content */,
+			);
+			path = SpeechRecognitionModule;
+			sourceTree = "<group>";
+		};
+		6B9AF3BC29D25624007DF2AB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6B9AF3BD29D25624007DF2AB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B9AF3B229D25621007DF2AB /* SpeechRecognitionModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B9AF3C129D25624007DF2AB /* Build configuration list for PBXNativeTarget "SpeechRecognitionModule" */;
+			buildPhases = (
+				6B9AF3AF29D25621007DF2AB /* Sources */,
+				6B9AF3B029D25621007DF2AB /* Frameworks */,
+				6B9AF3B129D25621007DF2AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeechRecognitionModule;
+			productName = SpeechRecognitionModule;
+			productReference = 6B9AF3B329D25621007DF2AB /* SpeechRecognitionModule.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B9AF3AB29D25620007DF2AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					6B9AF3B229D25621007DF2AB = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 6B9AF3AE29D25620007DF2AB /* Build configuration list for PBXProject "SpeechRecognitionModule" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B9AF3AA29D25620007DF2AB;
+			productRefGroup = 6B9AF3B429D25621007DF2AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B9AF3B229D25621007DF2AB /* SpeechRecognitionModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B9AF3B129D25621007DF2AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B9AF3CA29D25772007DF2AB /* a-estrelinha-do-mar-historinha-infantil-historia-curta.mp3 in Resources */,
+				6B9AF3BE29D25624007DF2AB /* Preview Assets.xcassets in Resources */,
+				6B9AF3BB29D25624007DF2AB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B9AF3AF29D25621007DF2AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B9AF3B929D25621007DF2AB /* ContentView.swift in Sources */,
+				6B9AF3C729D25660007DF2AB /* JSONFileManager.swift in Sources */,
+				6B9AF3C529D25634007DF2AB /* SpeechRecognition.swift in Sources */,
+				6B9AF3B729D25621007DF2AB /* SpeechRecognitionModuleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6B9AF3BF29D25624007DF2AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B9AF3C029D25624007DF2AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B9AF3C229D25624007DF2AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpeechRecognitionModule/Preview Content\"";
+				DEVELOPMENT_TEAM = DHZ8T8PDJ7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpeechRecognitionModule/Info.plist;
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Necessário para transcrever os tempos";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lidiane.barbosa.SpeechRecognitionModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B9AF3C329D25624007DF2AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpeechRecognitionModule/Preview Content\"";
+				DEVELOPMENT_TEAM = DHZ8T8PDJ7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpeechRecognitionModule/Info.plist;
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Necessário para transcrever os tempos";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lidiane.barbosa.SpeechRecognitionModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B9AF3AE29D25620007DF2AB /* Build configuration list for PBXProject "SpeechRecognitionModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B9AF3BF29D25624007DF2AB /* Debug */,
+				6B9AF3C029D25624007DF2AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B9AF3C129D25624007DF2AB /* Build configuration list for PBXNativeTarget "SpeechRecognitionModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B9AF3C229D25624007DF2AB /* Debug */,
+				6B9AF3C329D25624007DF2AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B9AF3AB29D25620007DF2AB /* Project object */;
+}
